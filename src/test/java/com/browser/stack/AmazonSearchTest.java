@@ -19,8 +19,8 @@ import java.util.concurrent.TimeUnit;
 
 public class AmazonSearchTest {
 
-	public static final String USERNAME = "canberk1";
-	public static final String AUTOMATE_KEY = "uBpCL9WpYURyKUxu5yqd";
+	public static final String USERNAME = "username";
+	public static final String AUTOMATE_KEY = "password";
 	public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY
 			+ "@hub.browserstack.com/wd/hub";
 	public static final String keyword="james cameron";

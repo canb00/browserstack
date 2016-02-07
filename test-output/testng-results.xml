@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27937" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
+  <suite name="Suite" duration-ms="28757" started-at="2016-02-07T10:24:16Z" finished-at="2016-02-07T10:24:45Z">
     <groups>
     </groups>
-    <test name="Firefox_Test" duration-ms="27389" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:31Z">
-      <class name="com.bilyoner.Stack.AmazonSearchTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="setup" is-config="true" duration-ms="15122" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:19Z">
+    <test name="Firefox_Test" duration-ms="20036" started-at="2016-02-07T10:24:16Z" finished-at="2016-02-07T10:24:36Z">
+      <class name="com.browser.stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.browser.stack.AmazonSearchTest@27a1f635]" name="setup" is-config="true" duration-ms="11033" started-at="2016-02-07T12:24:16Z" finished-at="2016-02-07T12:24:27Z">
           <params>
             <param index="0">
               <value>
@@ -28,19 +28,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="searchProduct" duration-ms="7057" started-at="2016-02-07T12:14:19Z" finished-at="2016-02-07T12:14:26Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.browser.stack.AmazonSearchTest@27a1f635]" name="searchProduct" duration-ms="4539" started-at="2016-02-07T12:24:27Z" finished-at="2016-02-07T12:24:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="cleanUp" is-config="true" duration-ms="5176" started-at="2016-02-07T12:14:26Z" finished-at="2016-02-07T12:14:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.browser.stack.AmazonSearchTest@27a1f635]" name="cleanUp" is-config="true" duration-ms="4447" started-at="2016-02-07T12:24:31Z" finished-at="2016-02-07T12:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+      </class> <!-- com.browser.stack.AmazonSearchTest -->
     </test> <!-- Firefox_Test -->
-    <test name="Chrome_Test" duration-ms="27546" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
-      <class name="com.bilyoner.Stack.AmazonSearchTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="setup" is-config="true" duration-ms="12343" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:16Z">
+    <test name="Chrome_Test" duration-ms="20925" started-at="2016-02-07T10:24:16Z" finished-at="2016-02-07T10:24:37Z">
+      <class name="com.browser.stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.browser.stack.AmazonSearchTest@539e922d]" name="setup" is-config="true" duration-ms="10254" started-at="2016-02-07T12:24:16Z" finished-at="2016-02-07T12:24:26Z">
           <params>
             <param index="0">
               <value>
@@ -61,19 +61,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="searchProduct" duration-ms="8612" started-at="2016-02-07T12:14:16Z" finished-at="2016-02-07T12:14:25Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.browser.stack.AmazonSearchTest@539e922d]" name="searchProduct" duration-ms="4916" started-at="2016-02-07T12:24:26Z" finished-at="2016-02-07T12:24:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="cleanUp" is-config="true" duration-ms="6551" started-at="2016-02-07T12:14:25Z" finished-at="2016-02-07T12:14:32Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.browser.stack.AmazonSearchTest@539e922d]" name="cleanUp" is-config="true" duration-ms="5732" started-at="2016-02-07T12:24:31Z" finished-at="2016-02-07T12:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+      </class> <!-- com.browser.stack.AmazonSearchTest -->
     </test> <!-- Chrome_Test -->
-    <test name="IE_Test" duration-ms="27937" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
-      <class name="com.bilyoner.Stack.AmazonSearchTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="setup" is-config="true" duration-ms="13154" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:17Z">
+    <test name="IE_Test" duration-ms="28757" started-at="2016-02-07T10:24:16Z" finished-at="2016-02-07T10:24:45Z">
+      <class name="com.browser.stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.browser.stack.AmazonSearchTest@48774b2c]" name="setup" is-config="true" duration-ms="12561" started-at="2016-02-07T12:24:16Z" finished-at="2016-02-07T12:24:28Z">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="searchProduct" duration-ms="9334" started-at="2016-02-07T12:14:17Z" finished-at="2016-02-07T12:14:27Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.browser.stack.AmazonSearchTest@48774b2c]" name="searchProduct" duration-ms="9769" started-at="2016-02-07T12:24:28Z" finished-at="2016-02-07T12:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="cleanUp" is-config="true" duration-ms="5417" started-at="2016-02-07T12:14:27Z" finished-at="2016-02-07T12:14:32Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.browser.stack.AmazonSearchTest@48774b2c]" name="cleanUp" is-config="true" duration-ms="6412" started-at="2016-02-07T12:24:38Z" finished-at="2016-02-07T12:24:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+      </class> <!-- com.browser.stack.AmazonSearchTest -->
     </test> <!-- IE_Test -->
   </suite> <!-- Suite -->
 </testng-results>

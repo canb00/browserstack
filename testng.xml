@@ -6,7 +6,7 @@
   <parameter name="version" value="42.0"/>
   <parameter name="platform" value="WINDOWS"/>
     <classes>
-     <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+     <class name="com.browser.stack.AmazonSearchTest"/>
     </classes>
   </test> 
   <test name="IE_Test">
@@ -14,7 +14,7 @@
   <parameter name="version" value="8.0"/>
   <parameter name="platform" value="WINDOWS"/>
     <classes>
-      <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+      <class name="com.browser.stack.AmazonSearchTest"/>
     </classes>
   </test> 
   <test name="Chrome_Test">
@@ -22,7 +22,7 @@
   <parameter name="version" value="46.0"/>
   <parameter name="platform" value="WINDOWS"/>
     <classes>
-     <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+     <class name="com.browser.stack.AmazonSearchTest"/>
     </classes>
   </test>
 </suite>

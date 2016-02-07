@@ -14,9 +14,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<testng.version>6.9.4</testng.version>
 		<selenium.support.version>2.48.2</selenium.support.version>
-		<selenium.firefox.version>2.48.2</selenium.firefox.version>
-		<selenium.safari.version>2.48.2</selenium.safari.version>
-		<selenium.ie.version>2.48.2</selenium.ie.version>
 		<selenium.server.version>2.48.2</selenium.server.version>
 		<selenium.remote.version>2.48.2</selenium.remote.version>
 		<log4j.version>1.2.17</log4j.version>
@@ -30,48 +27,15 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>${javax.mail.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>${extent.reports.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.3</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 			<scope>compile</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-support</artifactId>
 			<version>${selenium.support.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-firefox-driver</artifactId>
-			<version>${selenium.firefox.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-safari-driver</artifactId>
-			<version>${selenium.safari.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-ie-driver</artifactId>
-			<version>${selenium.ie.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

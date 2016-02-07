@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="platform" value="WINDOWS"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="46.0"/>
+  <test name="Firefox_Test(failed)" parallel="tests">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="version" value="42.0"/>
+    <classes>
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </classes>
+  </test> <!-- Firefox_Test(failed) -->
+  <test name="Chrome_Test(failed)" parallel="tests">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="46.0"/>
+    <classes>
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+  <test name="IE_Test(failed)" parallel="tests">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="version" value="8.0"/>
+    <classes>
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </classes>
+  </test> <!-- IE_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27937" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
+    <groups>
+    </groups>
+    <test name="Firefox_Test" duration-ms="27389" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:31Z">
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="setup" is-config="true" duration-ms="15122" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[42.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="searchProduct" duration-ms="7057" started-at="2016-02-07T12:14:19Z" finished-at="2016-02-07T12:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@27a1f635]" name="cleanUp" is-config="true" duration-ms="5176" started-at="2016-02-07T12:14:26Z" finished-at="2016-02-07T12:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </test> <!-- Firefox_Test -->
+    <test name="Chrome_Test" duration-ms="27546" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="setup" is-config="true" duration-ms="12343" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[46.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="searchProduct" duration-ms="8612" started-at="2016-02-07T12:14:16Z" finished-at="2016-02-07T12:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@539e922d]" name="cleanUp" is-config="true" duration-ms="6551" started-at="2016-02-07T12:14:25Z" finished-at="2016-02-07T12:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </test> <!-- Chrome_Test -->
+    <test name="IE_Test" duration-ms="27937" started-at="2016-02-07T10:14:04Z" finished-at="2016-02-07T10:14:32Z">
+      <class name="com.bilyoner.Stack.AmazonSearchTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="setup" is-config="true" duration-ms="13154" started-at="2016-02-07T12:14:04Z" finished-at="2016-02-07T12:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="searchProduct" duration-ms="9334" started-at="2016-02-07T12:14:17Z" finished-at="2016-02-07T12:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.bilyoner.Stack.AmazonSearchTest@48774b2c]" name="cleanUp" is-config="true" duration-ms="5417" started-at="2016-02-07T12:14:27Z" finished-at="2016-02-07T12:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.bilyoner.Stack.AmazonSearchTest -->
+    </test> <!-- IE_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

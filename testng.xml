@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+  <test name="Firefox_Test">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="version" value="42.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+     <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+    </classes>
+  </test> 
+  <test name="IE_Test">
+  <parameter name="browser" value="IE"/>
+  <parameter name="version" value="8.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+    </classes>
+  </test> 
+  <test name="Chrome_Test">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="46.0"/>
+  <parameter name="platform" value="WINDOWS"/>
+    <classes>
+     <class name="com.bilyoner.Stack.AmazonSearchTest"/>
+    </classes>
+  </test>
+</suite>
